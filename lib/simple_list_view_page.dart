@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:simple_list_view/buttons_page.dart';
+
 import 'package:simple_list_view/custom_list_tile.dart';
-import 'package:simple_list_view/tabbs.dart';
+
 
 class SimpleListViewPage extends StatelessWidget {
   const SimpleListViewPage({super.key});
@@ -14,7 +14,7 @@ class SimpleListViewPage extends StatelessWidget {
         actions: [
           Icon(Icons.list),
          IconButton(onPressed: (){
-          Navigator.of(context).push(MaterialPageRoute(builder: (_) => Tabbs()));
+         Navigator.push(context,MaterialPageRoute(builder: =>) )
          }, 
          
          icon: Icon(Icons.airplanemode_inactive_outlined))
