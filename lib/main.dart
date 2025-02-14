@@ -1,8 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:simple_list_view/custom_list_tile.dart';
-import 'package:simple_list_view/tabbs.dart';
-import 'package:simple_list_view/tabs.dart';
-import 'package:simple_list_view/firstroute.dart';
 import 'package:simple_list_view/simple_list_view_page.dart';
 
 void main() {
